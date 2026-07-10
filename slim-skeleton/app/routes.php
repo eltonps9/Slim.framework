@@ -16,7 +16,7 @@ return function (App $app) {
     });
 
     $app->get('/', function (Request $request, Response $response) {
-        $response->getBody()->write('Fazer projetos no Slim framework');
+        $response->getBody()->write('fazer o commit aqui pra verse vai dar certo');
         return $response;
     });
 
